@@ -77,7 +77,7 @@ export default {
     return {
       iconNames: [],
       search: "",
-      selected: 1,
+      selected: -1,
     };
   },
   mounted() {
