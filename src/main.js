@@ -3,7 +3,7 @@ import App from "./App.vue";
 import "./assets/styles/main.css";
 import "icon.place/iconplace.css";
 
-Vue.prototype.icons = require("../icons.json");
+Vue.prototype.iconsData = require("../icons.json");
 
 new Vue({
   render: (h) => h(App),

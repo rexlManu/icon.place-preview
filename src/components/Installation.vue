@@ -23,7 +23,7 @@
 </template>
 <script>
 export default {
-  name: "header",
+  name: "installation",
   methods: {
     copyInstall() {
       navigator.clipboard.writeText("npm i icon.place");
