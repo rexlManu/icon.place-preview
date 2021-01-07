@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en" class="">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +7,9 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
-  <body class="bg-gray-100">
+  <body
+    class="bg-gray-100 dark:bg-gray-900 transition duration-100 ease-linear"
+  >
     <noscript>
       <strong
         >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
@@ -15,7 +17,9 @@
         continue.</strong
       >
     </noscript>
+
     <div id="app"></div>
+
     <!-- built files will be auto injected -->
   </body>
 </html>

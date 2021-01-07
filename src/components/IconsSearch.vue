@@ -9,7 +9,7 @@
     </div>
     <input
       type="text"
-      class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-8 pr-12 sm:text-sm border-gray-300 rounded-md"
+      class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-8 pr-12 sm:text-sm border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200"
       placeholder="Search over 223 icons"
       v-model="search"
       v-on:input="$emit('search', search)"
